@@ -5,13 +5,14 @@ body {
 }
 
 header {
-	background-color: #9a6057;
-	background-image: url("./images/Sprint.jpg");
+	background-color: #3E4441;
+	background-image: url("../images/Sprint.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 2em;
 	text-align: center;
 	color: #F2EEE0;
+	background-position: center;
 
 
 }
@@ -19,6 +20,7 @@ header {
 .main {
 	display: flex;
 	width: 100%;
+	min-height: 888px;
 
 }
 
@@ -26,9 +28,12 @@ header {
 	order: 1;
 	flex: 1;
 	padding: 1.5em;
+	background-color: #9A6057;
+
 }
 
 .content {
+	background-color: #F2EEE0;
 	order: 1;
 	flex: 5;
 	padding: 1.5em;
